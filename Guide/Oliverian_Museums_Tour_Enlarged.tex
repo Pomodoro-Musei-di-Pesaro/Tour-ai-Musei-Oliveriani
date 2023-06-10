@@ -1,0 +1,53 @@
+\documentclass[hidelinks,12pt,a4paper]{article}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fourier} 
+
+% Stop hyphenation
+\usepackage[none]{hyphenat}
+
+% Justifying text
+\emergencystretch 3em
+
+% Enlarge section & subsection
+\usepackage{titlesec}
+\titleformat*{\section}{\LARGE\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+
+% Remove first empty page
+\usepackage{atbegshi}
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+
+% License
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+
+\begin{document}
+	\begin{flushleft}
+		
+		%Enlarge text
+		\LARGE
+		
+		\title{\textbf{Tour al museo e alla biblioteca Oliveriana}}
+		\author{Alice Balestieri}
+		\date{}
+		
+		\maketitle
+		% Adjust page counter
+		\setcounter{page}{1}
+		\newpage
+		
+		\tableofcontents
+		\newpage
+		
+		% ---------- ADD IMAGES HERE ----------
+		
+		\vspace*{\fill}
+		% Print license shield
+		\doclicenseThis
+		
+	\end{flushleft}
+\end{document}
