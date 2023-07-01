@@ -12,3 +12,9 @@ This work is licensed under a
 
 # Tour-ai-Musei-Oliveriani
 Guida per Operatori per spiegare Opere agli Oliveriani
+
+---
+
+# To-Do
+- Aggiugnere le immagini nel documento principale.
+- Fare la revisione del testo nel documento principale.
