@@ -16,5 +16,6 @@ Guida per Operatori per spiegare Opere agli Oliveriani
 ---
 
 # To-Do
+- Trovare immagini appropriate per il documento.
 - Aggiugnere le immagini nel documento principale.
 - Fare la revisione del testo nel documento principale.
