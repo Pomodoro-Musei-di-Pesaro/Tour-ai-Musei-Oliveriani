@@ -1,0 +1,16 @@
+name: Build LaTeX documents # Action name
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+        with:
+          sparse-checkout: .
+      - name: Compilazione dei file della Guida
+        uses: xu-cheng/latex-action@v2
+        with: # insert here files to compile
+          root_file: "Guide/*.tex"
+          glob_root_file: true
+      - run: echo "Tutto Okay :)"
