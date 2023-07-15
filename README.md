@@ -1,5 +1,5 @@
-# Tour ai Musei Oliveriani
-Guida per Operatori per spiegare Opere agli Oliveriani.
+# Tour ai Musei Oliveriani di Pesaro
+Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 
 ---
 
