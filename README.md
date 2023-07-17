@@ -3,7 +3,7 @@ Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 
 ---
 
-# State
+# Status
 [![Test Compilazione](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/actions/workflows/LaTeX_Action.yml/badge.svg?branch=main&event=push)](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/actions/workflows/LaTeX_Action.yml)
 
 ---
