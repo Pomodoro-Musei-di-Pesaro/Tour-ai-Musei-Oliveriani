@@ -8,6 +8,11 @@ Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 
 ---
 
+# In caso di nessuna Release
+- Scarica i [documenti](https://nightly.link/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/workflows/LaTeX_Action/main/Tour%20ai%20Musei%20Oliveriani.zip) dimostrativi.
+
+---
+
 # License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
