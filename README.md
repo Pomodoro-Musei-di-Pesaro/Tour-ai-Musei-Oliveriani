@@ -1,10 +1,30 @@
 # Tour ai Musei Oliveriani di Pesaro
 Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 
+[![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
+
 ---
 
 # Status
 [![Test Compilazione](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/actions/workflows/LaTeX_Action.yml/badge.svg?branch=main&event=push)](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/actions/workflows/LaTeX_Action.yml)
+
+---
+
+# Analytics
+[![views](https://raw.githubusercontent.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/traffic/traffic-Tour-ai-Musei-Oliveriani/views.svg)](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/tree/traffic#-Tour-ai-Musei-Oliveriani)
+[![clones](https://raw.githubusercontent.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/traffic/traffic-Tour-ai-Musei-Oliveriani/clones.svg)](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/tree/traffic#-Tour-ai-Musei-Oliveriani)
+[![Github all releases](https://img.shields.io/github/downloads/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/total.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/releases/)
+
+
+---
+
+# Details
+[![GitHub commits](https://badgen.net/github/commits/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/commit/)
+[![GitHub stars](https://badgen.net/github/stars/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/stargazers/)
+[![GitHub issues](https://img.shields.io/github/issues/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub forks](https://badgen.net/github/forks/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/network/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pull/)
 
 ---
 
