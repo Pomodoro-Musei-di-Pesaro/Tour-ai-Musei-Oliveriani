@@ -21,6 +21,7 @@ Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 # Details
 [![GitHub commits](https://badgen.net/github/commits/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/commit/)
 [![GitHub stars](https://badgen.net/github/stars/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani?color=blue)](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/watchers)
 [![GitHub issues](https://img.shields.io/github/issues/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues/)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub forks](https://badgen.net/github/forks/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/network/)
@@ -29,7 +30,7 @@ Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 ---
 
 # In caso di nessuna Release
-- Scarica i [documenti](https://nightly.link/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/workflows/LaTeX_Action/main/Tour%20ai%20Musei%20Oliveriani.zip) dimostrativi.
+[![Download](https://custom-icon-badges.demolab.com/badge/-Scarica%20i%20documenti%20dimostrativi-blue?style=for-the-badge&logo=download&logoColor=white "Documenti")](https://nightly.link/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/workflows/LaTeX_Action/main/Tour%20ai%20Musei%20Oliveriani.zip)
 
 ---
 
