@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+authors:
+- family-names: "Balestieri"
+  given-names: "Alice"
+- family-names: "Rombaldoni"
+  given-names: "Francesco"
+title: "Tour-ai-Musei-Oliveriani"
+version: 1.0.0
+date-released: 2023-08-10
+url: "https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani"
