@@ -1,12 +1,12 @@
 # Images & Licenses list  
 
-### [Anemoscopio](https://oliveriana.pu.it/sezioni-museo-oliveriano/anemoscopio/)
+### [Anemoscopio](https://oliveriana.pu.it/sezioni-museo-oliveriano/anemoscopio/) ###
 License: Without License
 
-### [Mappamondo](https://oliveriana.pu.it/collezioni-biblioteca-oliveriana/pergamene/)
+### [Mappamondo](https://oliveriana.pu.it/collezioni-biblioteca-oliveriana/pergamene/) ###
 License: Without License
 
-### [Stele_di_Novilara](https://oliveriana.pu.it/sezioni-museo-oliveriano/necropoli-di-novilara/)
+### [Stele_di_Novilara](https://oliveriana.pu.it/sezioni-museo-oliveriano/necropoli-di-novilara/) ###
 License: Without License
 
 
