@@ -4,7 +4,7 @@ on:
         branches:
             - main
     schedule:
-    - cron: '1 0 * * *' #UTC
+      - cron: '1 0 * * *' #UTC
 jobs:
     contrib-readme-job:
         runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
         steps:
             - name: Contribute List
               uses: akhilmhdh/contributors-readme-action@v2.3.6
-              with: 
+              with:
                   auto_detect_branch_protection: false
               env:
                   GITHUB_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
