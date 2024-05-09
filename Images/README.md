@@ -12,5 +12,4 @@ License: Without License
 
 License: Without License
 
-
 The remaining images in this folder had been photographed by our-self without copyright infringement intended
