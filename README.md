@@ -19,7 +19,6 @@ Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 [![clones](https://raw.githubusercontent.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/traffic/traffic-Tour-ai-Musei-Oliveriani/clones.svg)](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani)
 [![Github all releases](https://img.shields.io/github/downloads/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/total.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/releases/)
 
-
 ---
 
 ## Details
