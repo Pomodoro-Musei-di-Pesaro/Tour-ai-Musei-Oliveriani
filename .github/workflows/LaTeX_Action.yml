@@ -10,7 +10,7 @@ jobs:
       - name: Download file della Repo
         uses: actions/checkout@v4
       - name: Compilazione del file della Relazione
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with: # insert here files to compile
           working_directory: Guide
           root_file: |
