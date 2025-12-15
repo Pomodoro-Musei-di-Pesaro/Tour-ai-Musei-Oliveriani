@@ -21,7 +21,7 @@ jobs:
           mv Guide/Oliverian_Museums_Tour.pdf Guide/Guida_Musei_Oliveriani.pdf
           mv Guide/Oliverian_Museums_Tour_Enlarged.pdf Guide/Guida_Musei_Oliveriani_Ingrandita.pdf
       - name: Caricamento della Release temporanea
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with: 
           name: Tour ai Musei Oliveriani
           path: |
