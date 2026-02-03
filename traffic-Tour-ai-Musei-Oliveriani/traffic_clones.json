@@ -4513,11 +4513,6 @@
       "uniques": 9
     },
     {
-      "timestamp": "2026-01-19T00:00:00Z",
-      "count": 10,
-      "uniques": 7
-    },
-    {
       "timestamp": "2026-01-18T00:00:00Z",
       "count": 11,
       "uniques": 7
@@ -4526,6 +4521,11 @@
       "timestamp": "2026-01-20T00:00:00Z",
       "count": 12,
       "uniques": 9
+    },
+    {
+      "timestamp": "2026-01-19T00:00:00Z",
+      "count": 10,
+      "uniques": 7
     },
     {
       "timestamp": "2026-01-21T00:00:00Z",
