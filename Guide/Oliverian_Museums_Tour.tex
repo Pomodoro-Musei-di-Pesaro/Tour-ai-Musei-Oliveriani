@@ -19,6 +19,73 @@
 \usepackage{atbegshi}
 \AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 
+% Images
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\graphicspath{ {../Images} }
+
+%Command to zoom in --- This isn't the right algorithm to do that.
+\usepackage{mwe}
+\makeatletter
+\newsavebox\zb@x
+\newcounter{z@@m}
+\usepackage{calc}
+\newdimen\B@r\newdimen\P@r
+\newdimen\@zw\newdimen\@zh\newdimen\@zd
+
+\newcommand{\zoombox}[2][0]{%
+	\leavevmode%
+	\sbox\zb@x{#2}%
+	\setlength\B@r{1pt*\ratio{\wd\zb@x}{\ht\zb@x+\dp\zb@x}}%
+	\setlength\P@r{1pt*\ratio{\paperwidth}{\paperheight}}%
+	\ifdim\B@r>\P@r\relax%
+	\setlength\@zw{\wd\zb@x}\setlength\@zh{\@zw*\ratio{\paperheight}{\paperwidth}}%
+	\setlength\@zd{(\@zh-\ht\zb@x-\dp\zb@x)*\real{0.5}+\dp\zb@x}%
+	\setlength\@zh{\@zh-\@zd}%
+	\else%
+	\setlength\@zh{\ht\zb@x+\dp\zb@x}%
+	\setlength\@zw{\@zh*\ratio{\paperwidth}{\paperheight}}%
+	\setlength\@zh{\ht\zb@x}\setlength\@zd{\dp\zb@x}%
+	\fi%
+	\makebox[0pt][l]{\makebox[\wd\zb@x][c]{\makebox[\@zw][l]{%
+				\pdfdest name {zbfs\thez@@m} fitr
+				width  \@zw\space
+				height \@zh\space
+				depth  \@zd\space
+	}}}%
+	\pdfdest name {zb\thez@@m} fitr
+	width  \wd\zb@x\space
+	height \ht\zb@x\space
+	depth  \dp\zb@x\space
+	\immediate\pdfannot 
+	width  \wd\zb@x\space
+	height \ht\zb@x\space
+	depth  \dp\zb@x\space
+	{%
+		/Subtype/Link/H/N
+		/Border [0 0 #1 [1 2]]
+		/A <<
+		/S/JavaScript
+		/JS (
+		if(typeof(zoomed)=='undefined'||!zoomed){
+			var lastView=this.viewState;
+			if(app.fs.isFullScreen) this.gotoNamedDest('zbfs\thez@@m');
+			else this.gotoNamedDest('zb\thez@@m');
+			zoomed=true;
+		}else{
+			this.viewState=lastView;
+			zoomed=false;
+		}
+		)
+		>>
+	}%
+	\usebox{\zb@x}%
+	\stepcounter{z@@m}%
+} 
+\makeatother
+
 % License
 \usepackage[
 type={CC},
@@ -57,39 +124,91 @@ version={4.0},
 		Il percorso museale si snoda attraverso la storia del territorio, dal periodo piceno (necropoli di Novilara) all'epoca romana (Lucus Pisaurensis e Pisaurum), fino alle collezioni settecentesche. Di seguito sono descritti i reperti di maggiore rilievo.
 		
 		\subsection{Reperti e Collezioni Principali}
-		\begin{itemize}
-			\item \textbf{Anemoscopio di Boscovich (II d.C.)} \\
-			Questo disco in marmo lunense (diametro 55 cm), rinvenuto nel 1759 a Roma lungo la via Appia e donato all'Olivieri, è un reperto di eccezionale rarità. È un "orologio dei venti": sulla fascia laterale sono incisi i nomi greci e latini di dodici venti. Sulla faccia superiore è presente un tracciato geometrico (planisfero) che serviva probabilmente per calcoli astronomici o per determinare l'orientamento. Prende il nome dall'astronomo Ruggiero Giuseppe Boscovich che ne studiò le caratteristiche. Olivieri dispose nel suo testamento che fosse posto in grande risalto all'inizio del percorso museale.
-			
-			\item \textbf{Reperti della Necropoli di Novilara e le Vesti} \\
-			La sala dedicata alla civiltà picena (VIII-VII sec. a.C.) ospita i corredi della necropoli di Novilara. Di particolare interesse sono le stele figurate (come la celebre Stele della battaglia navale o della "naumachia") e i reperti che ci permettono di ricostruire l'abbigliamento dell'epoca. Grazie allo straordinario stato di conservazione di alcuni dettagli e alle raffigurazioni sulle stele, possiamo comprendere i motivi decorativi delle vesti femminili nobiliari, caratterizzate da ricchi ornamenti e fibule.
-			
-			\item \textbf{Brucia profumi in metallo} \\
-			Pregevole manufatto in bronzo proveniente dall'ambito emiliano, utilizzato in contesti rituali o domestici di alto rango per diffondere essenze.
-			
-			\item \textbf{Fibula in osso e ambra (da Verucchio)} \\
-			Straordinario esempio di oreficeria antica, questa fibula (spilla) proviene dalla necropoli di Verucchio (cultura villanoviana/etrusca). L'arco è rivestito o decorato con ambra, materiale prezioso che testimonia le rotte commerciali dell'epoca ("Via dell'Ambra") e lo status sociale elevato del defunto.
-			
-			\item \textbf{Vaso a scarpa (o Askos)} \\
-			Curioso reperto ceramico di provenienza veneta (paleoveneta), modellato a forma di calzatura. Questi vasi, detti \textit{askoi}, avevano spesso funzione rituale o funeraria e sono una testimonianza delle influenze culturali tra le popolazioni dell'Adriatico settentrionale.
-			
-			\item \textbf{Cippi del Lucus Pisaurensis ed Ex Voto} \\
-			Una delle collezioni più importanti del museo proviene dal \textit{Lucus Pisaurensis} (il bosco sacro di Pesaro), scoperto dallo stesso Olivieri. Si tratta di cippi votivi in arenaria con iscrizioni arcaiche dedicate a varie divinità, accompagnati da numerosi ex voto in terracotta (testine, arti, statuette) donati dai fedeli per chiedere la guarigione o ringraziare per una grazia ricevuta.
-			
-			\item \textbf{Elementi decorativi delle Domus} \\
-			Frammenti di decorazioni architettoniche e mosaici provenienti dalle \textit{domus} (case patrizie) della Pesaro romana. Si notano in particolare motivi marini con delfini e creature fantastiche (mostri marini serpentiformi), tipici dell'iconografia romana legata al mare e alla fortuna.
-			
-			\item \textbf{Tabula Fabrorum} \\
-			Lastra in bronzo con dedica al Collegio dei Fabbri, rinvenuta presso Palazzo Barignani. Presenta un timpano decorato con la figura di Minerva, protettrice degli artigiani. È un documento fondamentale per comprendere l'organizzazione sociale e le corporazioni di mestiere (collegia) nella Pesaro romana. Nella stessa sezione sono presenti altre epigrafi che ricordano mestieri oggi scomparsi.
-			
-			\item \textbf{Sarcofagi} \\
-			Esempi di sarcofagi romani in pietra, talvolta reimpiegati nei secoli successivi con funzioni diverse (come vasche o fontane), pratica comune nel Medioevo e Rinascimento che ne ha permesso, seppur alterandoli, la conservazione fino a noi.
-		\end{itemize}
+		
+		\subsubsection{Anemoscopio di Boscovich (II d.C.)}
+		Questo disco in marmo lunense (diametro 55 cm), rinvenuto nel 1759 a Roma lungo la via Appia e donato all'Olivieri, è un reperto di eccezionale rarità. È un "orologio dei venti": sulla fascia laterale sono incisi i nomi greci e latini di dodici venti. Sulla faccia superiore è presente un tracciato geometrico (planisfero) che serviva probabilmente per calcoli astronomici o per determinare l'orientamento. Prende il nome dall'astronomo Ruggiero Giuseppe Boscovich che ne studiò le caratteristiche. Olivieri dispose nel suo testamento che fosse posto in grande risalto all'inizio del percorso museale.
+	
+		\begin{minipage}{\linewidth}
+			\vspace*{0.2cm}
+			\centering
+			\zoombox{\includegraphics[scale=0.3]{Anemoscopio.jpg}}
+			\captionof{figure}{Anemoscopio}
+		\end{minipage}
+		
+		\subsubsection{Reperti della Necropoli di Novilara e le Vesti}
+		La sala dedicata alla civiltà picena (VIII-VII sec. a.C.) ospita i corredi della necropoli di Novilara. Di particolare interesse sono le stele figurate (come la celebre Stele della battaglia navale o della "naumachia") e i reperti che ci permettono di ricostruire l'abbigliamento dell'epoca. Grazie allo straordinario stato di conservazione di alcuni dettagli e alle raffigurazioni sulle stele, possiamo comprendere i motivi decorativi delle vesti femminili nobiliari, caratterizzate da ricchi ornamenti e fibule.
+		\begin{minipage}{\linewidth}
+			\vspace*{0.2cm}
+			\centering
+			\zoombox{\includegraphics[scale=0.1]{Tomba_infante.jpg}}
+			\captionof{figure}{Tomba infante}
+		\end{minipage}
+		
+		\subsubsection{Brucia profumi in metallo}
+		Pregevole manufatto in bronzo proveniente dall'ambito emiliano, utilizzato in contesti rituali o domestici di alto rango per diffondere essenze.
+		
+		
+		\subsubsection{Fibula in osso e ambra (da Verucchio)}
+		Straordinario esempio di oreficeria antica, questa fibula (spilla) proviene dalla necropoli di Verucchio (cultura villanoviana/etrusca). L'arco è rivestito o decorato con ambra, materiale prezioso che testimonia le rotte commerciali dell'epoca ("Via dell'Ambra") e lo status sociale elevato del defunto.
+		
+		\subsubsection{Vaso a scarpa (o Askos)}
+		Curioso reperto ceramico di provenienza veneta (paleoveneta), modellato a forma di calzatura. Questi vasi, detti \textit{askoi}, avevano spesso funzione rituale o funeraria e sono una testimonianza delle influenze culturali tra le popolazioni dell'Adriatico settentrionale.
+		
+		\subsubsection{Cippi del Lucus Pisaurensis ed Ex Voto}
+		Una delle collezioni più importanti del museo proviene dal \textit{Lucus Pisaurensis} (il bosco sacro di Pesaro), scoperto dallo stesso Olivieri. Si tratta di cippi votivi in arenaria con iscrizioni arcaiche dedicate a varie divinità, accompagnati da numerosi ex voto in terracotta (testine, arti, statuette) donati dai fedeli per chiedere la guarigione o ringraziare per una grazia ricevuta.
+		\begin{minipage}{\linewidth}
+			\vspace*{0.2cm}
+			\centering
+			\zoombox{\includegraphics[scale=0.1]{Sito_di_Culto_probabilmente_zona_Sante_Veneranda.jpg}}
+			\captionof{figure}{Cippi del Lucus Pisaurensis}
+		\end{minipage}
+		
+		\subsubsection{Elementi decorativi delle Domus}
+		Frammenti di decorazioni architettoniche e mosaici provenienti dalle \textit{domus} (case patrizie) della Pesaro romana. Si notano in particolare motivi marini con delfini e creature fantastiche (mostri marini serpentiformi), tipici dell'iconografia romana legata al mare e alla fortuna.
+		\begin{minipage}{\linewidth}
+			\vspace*{0.2cm}
+			\centering
+			\zoombox{\includegraphics[scale=0.15]{Resti_domus _omane_e_Amorino.jpg}}
+			\captionof{figure}{Resti domus Romane e Amorino}
+		\end{minipage}
+		
+		\subsubsection{Tabula Fabrorum}
+		Lastra in bronzo con dedica al Collegio dei Fabbri, rinvenuta presso Palazzo Barignani. Presenta un timpano decorato con la figura di Minerva, protettrice degli artigiani. È un documento fondamentale per comprendere l'organizzazione sociale e le corporazioni di mestiere (collegia) nella Pesaro romana. Nella stessa sezione sono presenti altre epigrafi che ricordano mestieri oggi scomparsi.
+		
+		\subsubsection{Sarcofagi}
+		Esempi di sarcofagi romani in pietra, talvolta reimpiegati nei secoli successivi con funzioni diverse (come vasche o fontane), pratica comune nel Medioevo e Rinascimento che ne ha permesso, seppur alterandoli, la conservazione fino a noi.
+		\begin{minipage}{\linewidth}
+			\vspace*{0.2cm}
+			\centering
+			\zoombox{\includegraphics[scale=0.15]{Reperti_votivi.jpg}}
+			\captionof{figure}{Reperti votivi}
+		\end{minipage}
+		
+		\subsubsection{Mappamondo (Planisfero) di Pesaro}
+		Questo prezioso reperto cartografico è una grande pergamena nautica (circa 2 metri di larghezza) databile agli inizi del XVI secolo (1508-1510 circa). È un documento di eccezionale importanza storica poiché è una delle prime carte geografiche al mondo a riportare la dicitura "Mundus Novus" (Nuovo Mondo) sulle coste dell'America del Sud, testimoniando la rapidissima diffusione delle notizie sulle scoperte transoceaniche. Sebbene non firmato, è spesso attribuito alla scuola cartografica genovese (forse Vesconte Maggiolo).
+		\begin{minipage}{\linewidth}
+			\vspace*{0.2cm}
+			\centering
+			\zoombox{\includegraphics[scale=0.35]{Mappamondo.jpg}}
+			\captionof{figure}{Mappamondo}
+		\end{minipage}
+		
+		\subsubsection{Stele di Novilara}
+		Si tratta probabilmente del reperto più celebre del Museo, proveniente dalla necropoli picena di Novilara (Età del Ferro, VII-VI sec. a.C.). La stele figurata in arenaria reca incisa una scena di battaglia navale (o di pirateria) che testimonia l'abilità marinara dei Piceni nell'Adriatico antico. Al di sotto delle navi sono raffigurate spirali che potrebbero rappresentare le onde del mare. Esiste anche una seconda stele famosa per recare un'iscrizione in lingua "nord-picena", ancora oggi oggetto di studi e non completamente decifrata.
+		\begin{minipage}{\linewidth}
+			\vspace*{0.2cm}
+			\centering
+			\zoombox{\includegraphics[scale=0.3]{Stele_di_Novilara.jpg}}
+			\captionof{figure}{Stele di Novilara}
+		\end{minipage}
+
 		
 		% ---------- ADD IMAGES HERE ----------
 		
 		\section{Fonti}
 		Le informazioni sono tratte dagli appunti dell'incontro con la Dott.ssa Brunella Paolini presso i Musei Oliveriani e dalla consultazione dei cataloghi del museo.
+		
+		\newpage
 		
 		\vspace*{\fill}
 		% Print license shield
