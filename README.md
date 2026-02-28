@@ -36,6 +36,69 @@ Guida per Operatori per spiegare le Opere dei Musei Oliveriani.
 
 ---
 
+<details>
+<summary>
+	
+## 👉 Read the documents
+
+</summary>
+
+<details>
+<summary>
+	
+### 👉 Oliverian Museums Tour
+
+</summary>
+
+![0001.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0001.png)
+![0002.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0002.png)
+![0003.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0003.png)
+![0004.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0004.png)
+![0005.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0005.png)
+![0006.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0006.png)
+![0007.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0007.png)
+![0008.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0008.png)
+![0009.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0009.png)
+![0010.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0010.png)
+![0011.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0011.png)
+![0012.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0012.png)
+![0013.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour/0013.png)
+
+</details>
+
+<details>
+<summary>
+	
+### 👉 Oliverian Museums Tour Enlarged
+
+</summary>
+
+![0001.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0001.png)
+![0002.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0002.png)
+![0003.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0003.png)
+![0004.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0004.png)
+![0005.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0005.png)
+![0006.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0006.png)
+![0007.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0007.png)
+![0008.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0008.png)
+![0009.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0009.png)
+![0010.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0010.png)
+![0011.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0011.png)
+![0012.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0012.png)
+![0013.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0013.png)
+![0014.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0014.png)
+![0015.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0015.png)
+![0016.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0016.png)
+![0017.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0017.png)
+![0018.png](https://github.com/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/Readme_imgs/Oliverian_Museums_Tour_Enlarged/0018.png)
+
+</details>
+
+</details>
+
+
+---
+
 ## In caso di nessuna Release
 
 [![Download](https://custom-icon-badges.demolab.com/badge/-Scarica%20i%20documenti%20dimostrativi-blue?style=for-the-badge&logo=download&logoColor=white "Documenti")](https://nightly.link/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/workflows/LaTeX_Action/main/Tour%20ai%20Musei%20Oliveriani.zip)
