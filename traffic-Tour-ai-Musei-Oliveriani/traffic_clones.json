@@ -4643,11 +4643,6 @@
       "uniques": 7
     },
     {
-      "timestamp": "2026-02-14T00:00:00Z",
-      "count": 13,
-      "uniques": 10
-    },
-    {
       "timestamp": "2026-02-13T00:00:00Z",
       "count": 8,
       "uniques": 6
@@ -4656,6 +4651,11 @@
       "timestamp": "2026-02-15T00:00:00Z",
       "count": 16,
       "uniques": 12
+    },
+    {
+      "timestamp": "2026-02-14T00:00:00Z",
+      "count": 13,
+      "uniques": 10
     },
     {
       "timestamp": "2026-02-16T00:00:00Z",
