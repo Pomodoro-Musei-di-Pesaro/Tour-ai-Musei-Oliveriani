@@ -2,14 +2,8 @@
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues",
     "title": "/issues",
-    "count": 6,
-    "uniques": 6
-  },
-  {
-    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pulls",
-    "title": "/pulls",
-    "count": 4,
-    "uniques": 4
+    "count": 7,
+    "uniques": 7
   },
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani",
@@ -18,8 +12,26 @@
     "uniques": 3
   },
   {
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pulls",
+    "title": "/pulls",
+    "count": 3,
+    "uniques": 3
+  },
+  {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/milestones",
     "title": "/milestones",
+    "count": 2,
+    "uniques": 2
+  },
+  {
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues/2",
+    "title": "/issues/2",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pull/5",
+    "title": "/pull/5",
     "count": 1,
     "uniques": 1
   }
