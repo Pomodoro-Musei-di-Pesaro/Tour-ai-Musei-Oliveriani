@@ -8,8 +8,8 @@
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues",
     "title": "/issues",
-    "count": 6,
-    "uniques": 6
+    "count": 5,
+    "uniques": 5
   },
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/CODE_OF_CONDUCT.md",
@@ -22,6 +22,12 @@
     "title": "/milestones",
     "count": 2,
     "uniques": 2
+  },
+  {
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/CONTRIBUTING.md",
+    "title": "/blob/main/CONTRIBUTING.md",
+    "count": 1,
+    "uniques": 1
   },
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/SECURITY.md",
@@ -50,12 +56,6 @@
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pull/4",
     "title": "/pull/4",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/releases",
-    "title": "/releases",
     "count": 1,
     "uniques": 1
   }
