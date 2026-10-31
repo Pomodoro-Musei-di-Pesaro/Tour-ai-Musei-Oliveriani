@@ -8,12 +8,18 @@
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pulls",
     "title": "/pulls",
-    "count": 3,
-    "uniques": 3
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani",
     "title": "Overview",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/actions/workflows/LaTeX_Action.yml",
+    "title": "/actions/workflows/LaTeX_Action.yml",
     "count": 1,
     "uniques": 1
   },
@@ -36,20 +42,14 @@
     "uniques": 1
   },
   {
-    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/commits/main/README.md",
-    "title": "/commits/main/README.md",
-    "count": 1,
-    "uniques": 1
-  },
-  {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/graphs/commit-activity",
     "title": "/graphs/commit-activity",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues/3",
-    "title": "/issues/3",
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pull/23/files",
+    "title": "/pull/23/files",
     "count": 1,
     "uniques": 1
   }
