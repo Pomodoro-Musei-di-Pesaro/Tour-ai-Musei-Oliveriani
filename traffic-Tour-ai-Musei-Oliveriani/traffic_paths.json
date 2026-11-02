@@ -2,8 +2,14 @@
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/issues",
     "title": "/issues",
-    "count": 4,
-    "uniques": 4
+    "count": 3,
+    "uniques": 3
+  },
+  {
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/actions/workflows/LaTeX_Action.yml",
+    "title": "/actions/workflows/LaTeX_Action.yml",
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/pull/23/files",
@@ -24,12 +30,6 @@
     "uniques": 1
   },
   {
-    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/actions/workflows/LaTeX_Action.yml",
-    "title": "/actions/workflows/LaTeX_Action.yml",
-    "count": 1,
-    "uniques": 1
-  },
-  {
     "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/CODE_OF_CONDUCT.md",
     "title": "/blob/main/CODE_OF_CONDUCT.md",
     "count": 1,
@@ -42,14 +42,14 @@
     "uniques": 1
   },
   {
-    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/LICENSE",
-    "title": "/blob/main/LICENSE",
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/SECURITY.md",
+    "title": "/blob/main/SECURITY.md",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/SECURITY.md",
-    "title": "/blob/main/SECURITY.md",
+    "path": "/Pomodoro-Musei-di-Pesaro/Tour-ai-Musei-Oliveriani/blob/main/SUPPORT.md",
+    "title": "/blob/main/SUPPORT.md",
     "count": 1,
     "uniques": 1
   },
