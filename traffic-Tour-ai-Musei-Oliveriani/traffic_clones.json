@@ -5993,14 +5993,14 @@
       "uniques": 15
     },
     {
-      "timestamp": "2026-11-10T00:00:00Z",
-      "count": 17,
-      "uniques": 10
-    },
-    {
       "timestamp": "2026-11-11T00:00:00Z",
       "count": 8,
       "uniques": 5
+    },
+    {
+      "timestamp": "2026-11-10T00:00:00Z",
+      "count": 17,
+      "uniques": 10
     },
     {
       "timestamp": "2026-11-12T00:00:00Z",
